@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background: #211058; 
+    color: #fff;
+}
+.main-header {
+    background-image: url(../img/background.jpg);
+}
+
+.main-header .background-overlay-header {
+    position:relative;
+    top:0;
+    left:0;
+    background:rgba(0, 0, 0, 0.719);    
+    max-height: 450px;
+    min-height: 450px;
+}
+
+.img-header-product {
+    border-radius: 30px;
+    width:30%;
+}
+
+.social-bars {
+    position:fixed;
+    left:0;
+    top: 28%;
+    display:flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    align-items: flex-start;
+    z-index:3000;
+
+}
+
+.icon {
+    color: #fff;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-whatsapp {
+    background: rgb(5, 197, 155);
+}
+
+.icon-facebook {
+    background: rgb(5, 95, 197);
+}
+
+.icon-instagram {
+    background: linear-gradient(#5a0d8d,#ad167b); 
+}
+
+.icon-freelance {
+    background: rgb(0, 0, 0);
+}
+
+.icon:first-child {
+    border-radius: 0 1rem 0 0;
+}
+
+.icon:last-child {
+    border-radius: 0 0 1rem 0;
+}
+
+.icon:hover {
+    padding-left: 3rem;
+    border-radius: 0 1rem 1rem 0;
+    box-shadow: 0 0 .5 rgba(0, 0, 0, .9);
+    color: rgb(98, 98, 98);
+}
+
+.services {
+    background: url(../img/background.jpg);
+    background-size: cover;
+    position:relative;
+    left:0;
+    top:0;
+    color:#fff;
+}
+
+.background-overlay {
+    background:#00000093;
+}
+
+.quality .row .col-md-4 .quality-icon {
+    font-size: 60px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 70px;
+}
+
+.main-footer {
+    background: #211058; 
+    color: #fff;
+}
